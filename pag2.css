@@ -1,14 +1,33 @@
 .container__menu {
     background-color:white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
 
 }
 .cabecalho {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    
 }
+
+.imagem-user{
+    border-radius: 90px;
+    width: 31px;
+}
+.user {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 202px;
+    height: 45px;
+    color: #fff;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -37,7 +56,7 @@
 }
 
 .menu > li {
-    background: #3795EB;
+    background: #1746a2;
     float: left;
     position: relative;
 
@@ -50,6 +69,8 @@
     text-decoration: none;
     font-family: Arial, Helvetica;
     font-size: 14px;
+    width: 150.2px;
+    text-align: center;
 }
 
 .menu li:hover {

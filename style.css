@@ -172,3 +172,7 @@ body {
     transform: translateY(-50%);
     font-size: 15px;
 }
+
+.btn:active{
+    background: #e74c3c;
+}
